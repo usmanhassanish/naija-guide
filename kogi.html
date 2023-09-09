@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title></title>
+</head>
+<body>
+	<div class="header">
+		<div id="left"></div>
+		<div id="mid">
+			<div class="title">
+				<span>NAIJA GUIDE</span>
+			</div>
+		</div>
+		<div id="right">
+			<div >
+			<img class="location" src="marker.png" height="40">
+			</div>
+			
+			
+		</div>			
+			
+		</div>
+		<div class="choose-state">
+			<div id="row1">
+				<span><a href="plateau.html">PLATEAU</a></span>
+				<span><a href="kogi.html">KOGI</a></span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+			</div>
+			<div id="row1">
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+			</div>
+			<div id="row1">
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+			</div>
+			<div id="row1">
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+			</div>
+			
+			
+		</div>
+
+		<div class="state-description">
+			<div class="heading">KOGI</div>
+			<p>Kogi is state in the North Central region of Nigeria. it is the only state in Nigeria that borders ten other states. It is named after the hausa word for river "kogi". It is called the confluence state due to the fact that River Benue and River Niger meets next to its capital Lokoja.</p>
+
+			<div class="heading">MAJOR ECONOMIC ACTIVITIES</div>
+			<p>CEMENT PRODUCTION - Due to the abundance of limestone in kogi state which is the one of the primary raw materials for cement production, the state has a lot of cement factories. The likes of dangote and other companies all have production centers in the state.</p>
+			<p>AGRICULTURE - Agriculture is a major occupution in Kogi state. They produce coffee, cashew, groundnut, cocoa, oil palm, and yam crops</p>
+		</div>
+		
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const locationElement = document.querySelector(".location");
+    const chooseStateElement = document.querySelector(".choose-state");
+
+    locationElement.addEventListener("mouseenter", function() {
+        chooseStateElement.style.display = "block";
+    });
+
+    locationElement.addEventListener("mouseleave", function() {
+        chooseStateElement.style.display = "none";
+    });
+
+    chooseStateElement.addEventListener("mouseenter", function() {
+        chooseStateElement.style.display = "block";
+    });
+
+    chooseStateElement.addEventListener("mouseleave", function() {
+        chooseStateElement.style.display = "none";
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

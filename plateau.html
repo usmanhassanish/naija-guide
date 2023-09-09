@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title></title>
+</head>
+<body>
+	<div class="header">
+		<div id="left"></div>
+		<div id="mid">
+			<div class="title">
+				<span>NAIJA GUIDE</span>
+			</div>
+		</div>
+		<div id="right">
+			<div >
+			<img class="location" src="marker.png" height="40">
+			</div>
+			
+			
+		</div>			
+			
+		</div>
+		<div class="choose-state">
+			<div id="row1">
+				<span><a href="plateau.html">PLATEAU</a></span>
+				<span><a href="kogi.html">KOGI</a></span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+			</div>
+			<div id="row1">
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+			</div>
+			<div id="row1">
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+			</div>
+			<div id="row1">
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+				<span>STATE</span>
+			</div>
+			
+			
+		</div>
+
+		<div class="state-description">
+			<div class="heading">PLATEAU STATE</div>
+			<p>Plateau State is the twelfth-largest Nigerian state. It is positioned at centre of Nigeria and has a lot of hills surrounding its capital city jos, and the entire plateau itself.</p>
+			<p>
+			Plateau State is described as "The Home of Peace and Tourism". With natural formations of rocks, hills and waterfalls, it derives its name from the Jos Plateau and has a population of around 3.5 million people.</p>
+
+			<div class="heading">MAJOR ECONOMIC ACTIVITIES</div>
+			<p>MINING - According to Britannica, Plateau State is considered the most significant mining area in Nigeria and also the a major exporter of tin and columbite. they also produces other mineral resources such as tantalite, kaolin, wolfram, lead, zinc and others</p>
+			<p>AGRICULTURE - Agriculture is a major occupution in plateau state. They produces cash crops such as yams, sorghum, corn, potatoes, cowpeas, rice, fruits, and vegetables</p>
+		</div>
+		
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const locationElement = document.querySelector(".location");
+    const chooseStateElement = document.querySelector(".choose-state");
+
+    locationElement.addEventListener("mouseenter", function() {
+        chooseStateElement.style.display = "block";
+    });
+
+    locationElement.addEventListener("mouseleave", function() {
+        chooseStateElement.style.display = "none";
+    });
+
+    chooseStateElement.addEventListener("mouseenter", function() {
+        chooseStateElement.style.display = "block";
+    });
+
+    chooseStateElement.addEventListener("mouseleave", function() {
+        chooseStateElement.style.display = "none";
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
